@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà hàng Daedong</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rye&family=UnifrakturMaguntia&family=Yeseva+One&display=swap" rel="stylesheet">
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <section>
+            <div class="header__daedong">
+                <div class="container mx-auto row header__daedong--name">
+                    <div class="col-xl-12 my-3 d-flex justify-content-center">
+                        <h1 class="d-flex align-items-top font-italic">Daedong </h1>
+                        <img class="mx-1 header__link--logo" src="./32.png" height="150px" width="150px">
+                        <h2 class="d-flex align-items-end font-italic"> House</h1>
+                    </div>
+                    <div class="col-xl-12 row mx-auto my-3 d-flex justify-content-center">
+                        <ul class="nav justify-content-center header__link--intro">
+                            <li class="nav-item d-flex align-items-end">
+                              <a class="nav-link active btn btn-dark" href="index.html">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                              <a class="nav-link btn btn-dark" href="indexMenu.html">Thực Đơn</a>
+                            </li>
+                            <i class="fas fa-concierge-bell mx-2 header__link--logo"></i>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link active btn btn-dark" href="indexComment.html">Đánh giá</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link btn btn-dark" href="#">Đặt Bàn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main__backgroud--booking"><br>
+        <section>
+            <div class="section__intro--text text-center my-5">
+                <h3><i class="fas fa-user-friends"></i> Xác minh thông tin khách hàng</h3>
+            </div>
+            <div class="container row mx-auto">
+                <div class="col-xl-6 col-12 container mx-auto row section__info" style="color: #ffffff;">
+                    <div class="col-xl-12 text-center">
+                        <h4 style="font-size: 35px;">Thông tin khách hàng</h4>
+                    </div>
+
+
+                    <div class="col-xl-12 row">
+                        <label for="fullname" class="fullname col-xl-12 section__info--font ">Họ và Tên:</label>
+                        <input class="col-xl-12" id="fullname" name="fullname" type="text" placeholder="VD: Vũ Văn Lượng" >
+                        <span class=" col-xl-12 form-text"></span>
+                    </div>
+
+
+                    <div class="col-xl-12 row">
+                        <label for="address" class="address col-xl-12 section__info--font">Địa Chỉ:</label>
+                        <input class="col-xl-12" id="address" name="address" type="text" placeholder="VD: Hải Phòng - Thủy Nguyên - Xóm - Số Nhà" >
+                        <span class="form-text col-xl-12"></span>
+                    </div>
+
+
+                    <div class="col-xl-12 row">
+                        <label for="phone" class="phone col-xl-12 section__info--font">Số Điện Thoại:</label>
+                        <input class="col-xl-12" id="phone" name="phone" type="number" placeholder="VD:000-000-000" >
+                        <span class="form-text col-xl-12"></span>
+                    </div>
+
+
+                    <div class="col-xl-12 row">
+                        <label for="email" class="email col-xl-12 section__info--font">Gmail:</label>
+                        <input class="col-xl-12" id="email" name="email" type="email" placeholder="VD: ABC@gmail.com" >
+                        <span class="form-text col-xl-12"></span>
+                    </div>
+
+
+                    <div class="col-xl-12 row">
+                        <label for="people" class="people col-xl-12 section__info--font">Tổng Số Người:</label>
+                        <input class="col-xl-12" id="people" name="people" type="number" placeholder="VD: 10" >
+                        <span class="form-text col-xl-12"></span>
+                    </div>
+
+                    <div class="col-xl-12 row justify-content-center">
+                        <button class="col-xl-5 btn btn-primary my-4 btn-lg rounded-lg" >Đặt bàn</button>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-12 container mx-auto row section__info" style="color: #ffffff;">
+                    <div class="col-xl-12 text-center">
+                        <h4 style="font-size: 35px;">Thông tin nhà hàng</h4>
+                    </div>
+                    <div class="col-xl-12 row container">
+                        <p><i class="fas fa-mobile-alt mx-2"></i>010-5749-2768</p>
+                    </div>
+                    <div class="col-xl-12 row container">
+                         <p><i class="fas fa-map-marker-alt mx-2"></i> 106 Yullyandong-Cheongwongu-Cheongjusi</p>
+                    </div>
+                    <div class="col-xl-12 row container">
+                        <p><i class="far fa-clock mx-2"></i> 17:00 - 3:00</p>
+                    </div>
+                    <div class="col-xl-12 row container ">
+                        <p><i class="fas fa-envelope-open-text mx-2"></i>Vuhai01101998@gmail.com</p>
+                    </div>
+                    <div class="col-xl-12 row container">
+                        <p class="text-center" style="font-size: 30px;">Rất hân hạnh được phục vụ quý khách!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section><br>
+    </main>
+    <footer>
+        <div class="footer__daedong">
+            <div class="container d-flex p-2 bd-highlight">
+                <div class="row w-100 my-3 text-center">
+                    <div class="col-xl-6 footer__daedong--text"> © 2020 Daedong House. All Rights Reserved.</div>
+                    <div class="col-xl-6 footer__daedong--icon">
+                        <a href="#" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" title="Twitter">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#" title="YouTube">
+                            <i class="fab fa-youtube-square"></i>
+                        </a>
+                        <a href="#" title="google">
+                            <i class="fab fa-google-plus-square"></i>
+                        </a>
+                        <a href="#" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isEmail('#email'),
+            ]
+        })
+    </script>
+</body>
+</html>
